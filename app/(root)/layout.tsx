@@ -1,7 +1,9 @@
 
+import StreamVideoProvider from '@/providers/StreamVideoProvider';
 import { Metadata } from 'next';
 import React, { ReactNode } from 'react'
-import StreamVideoProvider from '@/providers/streamClientProvider'
+
+
 
 export const metadata: Metadata = {
     title: "Yoom",

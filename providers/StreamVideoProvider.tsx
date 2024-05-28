@@ -31,7 +31,7 @@ export const StreamVideoProvider = ({ children }: { children: ReactNode }) => {
             })
 
             setVideoClient(client)
-    }, [user, isLoaded])
+    }, [user, isLoaded, router])
 
     if(!videoClient) return <Loader />
 
